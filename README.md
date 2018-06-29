@@ -18,8 +18,8 @@ Some options are directly available to help you format log output (see [Options]
 ## Getting Started
 
 ```sh
-# Install dependencies
-pip install -r requirements.txt
+# In repo root do
+pip install .
 
 # Run fake-logs (with python 3)
 python fake-logs.py

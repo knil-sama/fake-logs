@@ -11,6 +11,7 @@ for item in requirements:
     if item.req:
         requires.append(str(item.req)) # always the package name 
 
+
 setup(name='fake-logs',
       version='1.0',
       description='Python server fake log generator',

@@ -1,4 +1,5 @@
-from distutils.core import setup, find_packages
+import pip
+from distutils.core import setup
 
 # new versions of pip requires a session
 requirements = pip.req.parse_requirements(
@@ -16,7 +17,6 @@ setup(name='fake-logs',
       version='1.0',
       description='Python server fake log generator',
       author='s4tori',
-      packages=find_packages(),
       url='https://github.com/s4tori/fake-logs',
       packages=['fake_logs'],
       install_requires=requires,
